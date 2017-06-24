@@ -61,6 +61,10 @@ p[epub|type~="z3998:sender"]{
 	font-style:italic;
 }
 
+[epub|type~="z3998:poem"] p.title{
+	font-style:italic;
+}
+
 [epub|type~="z3998:poem"] p, [epub|type~="z3998:lyrics"] p{
 	text-align: left;
 	text-indent: 0;
