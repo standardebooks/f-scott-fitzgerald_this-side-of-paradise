@@ -42,7 +42,7 @@
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/805</dc:source>
-		<dc:source>https://archive.org/details/thissideofparadi00fitzuoft</dc:source>
+		<dc:source>https://archive.org/stream/thissideofparadi00fitzuoft</dc:source>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/This_Side_of_Paradise</meta>
