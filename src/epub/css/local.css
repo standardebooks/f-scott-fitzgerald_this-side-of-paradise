@@ -49,12 +49,43 @@ blockquote[epub|type~="z3998:letter"]{
 
 p[epub|type~="z3998:valediction"]{
 	text-indent: 0;
-	text-align: center;
 	margin: 0 0 0 5em;
 }
 
 p[epub|type~="z3998:sender"]{
 	text-indent: 0;
-	text-align: right;
 	margin: 0 0 0 10em;
+}
+
+[epub|type~="z3998:poem"] p{
+	text-align: left;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:poem"] p > span{
+	display: block;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+[epub|type~="z3998:poem"] p > span + br{
+	display: none;
+}
+
+[epub|type~="z3998:poem"] p + p{
+	margin-top: 1em;
+}
+
+[epub|type~="z3998:poem"] + p{
+	text-indent: 0;
+}
+
+p span.i1{
+	text-indent: -1em;
+	padding-left: 2em;
+}
+
+p span.i2{
+	text-indent: -1em;
+	padding-left: 3em;
 }
