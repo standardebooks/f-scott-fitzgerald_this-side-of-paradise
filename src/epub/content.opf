@@ -18,29 +18,40 @@
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<link href="onix.xml" rel="onix-record"/>
 		<dc:title id="title">This Side of Paradise</dc:title>
-		<meta property="file-as" refines="#title">SORT</meta>
-		<dc:subject id="subject-1">SUBJECT1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT2</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">LOCLINK1</meta>
-		<meta property="meta-auth" refines="#subject-2">LOCLINK2</meta>
-		<meta property="se:subject">TAG</meta>
+		<meta property="file-as" refines="#title">This Side of Paradise</meta>
+		<dc:subject id="subject-1">Love Stories</dc:subject>
+		<dc:subject id="subject-2">Bildungsromans</dc:subject>
+		<dc:subject id="subject-3">Young men -- Fiction</dc:subject>
+		<dc:subject id="subject-4">Children of the rich -- Fiction</dc:subject>
+		<dc:subject id="subject-5">Advertising -- Fiction</dc:subject>
+		<dc:subject id="subject-6">College students -- Fiction</dc:subject>
+		<dc:subject id="subject-7">World War, 1914-1918 -- Veterans -- Fiction</dc:subject>
+		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/805</meta>
+		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/805</meta>
+		<meta property="meta-auth" refines="#subject-3">https://www.gutenberg.org/ebooks/805</meta>
+		<meta property="meta-auth" refines="#subject-4">https://www.gutenberg.org/ebooks/805</meta>
+		<meta property="meta-auth" refines="#subject-5">https://www.gutenberg.org/ebooks/805</meta>
+		<meta property="meta-auth" refines="#subject-6">https://www.gutenberg.org/ebooks/805</meta>
+		<meta property="meta-auth" refines="#subject-7">https://www.gutenberg.org/ebooks/805</meta>
+		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONGDESCRIPTION
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
-		<dc:language>LANG</dc:language>
-		<dc:source>LINK</dc:source>
+		<dc:language>en-US</dc:language>
+		<dc:source>https://www.gutenberg.org/ebooks/805</dc:source>
+		<dc:source>https://archive.org/details/thissideofparadi00fitzuoft</dc:source>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">WIKILINK</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/This_Side_of_Paradise</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/f-scott-fitzgerald_this-side-of-paradise</meta>
 		<dc:creator id="author">F. Scott Fitzgerald</dc:creator>
-		<meta property="file-as" refines="#author">SORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">FULLNAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">WIKILINK</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">NACOAFLINK</meta>
+		<meta property="file-as" refines="#author">Fitzgerald, F. Scott</meta>
+		<meta property="se:name.person.full-name" refines="#author">Francis Scott Key Fitzgerald</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/F._Scott_Fitzgerald</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79006871</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">CONTRIB1</dc:contributor>
 		<meta property="file-as" refines="#translator">CONTRIB1SORT</meta>
