@@ -48,13 +48,13 @@ blockquote[epub|type~="z3998:letter"]{
 }
 
 p[epub|type~="z3998:valediction"]{
-	text-indent: 0;
-	margin: 0 0 0 5em;
+	text-align:center;
 }
 
-p[epub|type~="z3998:sender"]{
-	text-indent: 0;
-	margin: 0 0 0 10em;
+[epub|type~="z3998:letter"] footer p.signature,
+p[epub|type~="z3998:salutation"]{
+	text-align:right;
+	font-variant: small-caps;
 }
 
 [epub|type~="z3998:lyrics"] p{
@@ -65,26 +65,31 @@ p[epub|type~="z3998:sender"]{
 	font-style:italic;
 }
 
-[epub|type~="z3998:poem"] p, [epub|type~="z3998:lyrics"] p{
+[epub|type~="z3998:poem"] p,
+[epub|type~="z3998:lyrics"] p{
 	text-align: left;
 	text-indent: 0;
 }
 
-[epub|type~="z3998:poem"] p > span, [epub|type~="z3998:lyrics"] p > span{
+[epub|type~="z3998:poem"] p > span,
+[epub|type~="z3998:lyrics"] p > span{
 	display: block;
 	text-indent: -1em;
 	padding-left: 1em;
 }
 
-[epub|type~="z3998:poem"] p > span + br, [epub|type~="z3998:lyrics"] p > span + br{
+[epub|type~="z3998:poem"] p > span + br,
+[epub|type~="z3998:lyrics"] p > span + br{
 	display: none;
 }
 
-[epub|type~="z3998:poem"] p + p, [epub|type~="z3998:lyrics"] p + p{
+[epub|type~="z3998:poem"] p + p,
+[epub|type~="z3998:lyrics"] p + p{
 	margin-top: 1em;
 }
 
-[epub|type~="z3998:poem"] + p, [epub|type~="z3998:lyrics"] + p{
+[epub|type~="z3998:poem"] + p,
+[epub|type~="z3998:lyrics"] + p{
 	text-indent: 0;
 }
 
