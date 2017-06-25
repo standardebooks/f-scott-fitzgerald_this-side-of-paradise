@@ -43,6 +43,11 @@ td{
 	padding: .5em;
 }
 
+th{
+	font-variant: small-caps;
+	text-align: center;
+}
+
 blockquote[epub|type~="z3998:letter"]{
 	font-style: italic;
 }
