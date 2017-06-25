@@ -53,8 +53,11 @@ p[epub|type~="z3998:valediction"]{
 
 [epub|type~="z3998:letter"] footer p.signature,
 p[epub|type~="z3998:salutation"]{
-	text-align:right;
 	font-variant: small-caps;
+}
+
+p[epub|type~="z3998:salutation"]{
+	text-align:left;
 }
 
 [epub|type~="z3998:lyrics"] p{
