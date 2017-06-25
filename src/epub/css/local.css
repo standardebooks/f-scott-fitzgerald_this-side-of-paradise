@@ -1,7 +1,8 @@
 @charset "UTF-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-abbr.name{
+abbr.name,
+abbr.initialism{
 	white-space: nowrap;
 }
 
@@ -11,6 +12,10 @@ b{
 
 [epub|type~="z3998:stage-direction"]{
 	font-style: italic;
+}
+
+[epub|type~="subtitle"]{
+	font-variant: small-caps;
 }
 
 [epub|type~="z3998:stage-direction"]:before{
