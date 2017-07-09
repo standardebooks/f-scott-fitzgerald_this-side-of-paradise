@@ -18,7 +18,8 @@ b{
 	font-variant: small-caps;
 }
 
-[epub|type~="subchapter"] h3{
+[epub|type~="subchapter"] h3,
+[epub|type~="z3998:poem"] h3{
 	margin: 2em 0 1em 0;
 }
 
