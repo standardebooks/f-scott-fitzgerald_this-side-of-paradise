@@ -35,15 +35,16 @@
 		<meta property="meta-auth" refines="#subject-6">https://www.gutenberg.org/ebooks/805</meta>
 		<meta property="meta-auth" refines="#subject-7">https://www.gutenberg.org/ebooks/805</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">A young man comes of age during America's Jazz Age.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONGDESCRIPTION
+			F. Scott Fitzgerald's first novel is a semi-autobiographical story of a mid-western young man from a wealthy family. It follows him from preparatory school, through Princeton, and then an aborted attempt at a career as an advertising copywriter. It examines his relationships with his family, romantic partners, mentors, and peers and how he attempts to develop and define himself through these relationships and through his changing fortunes.
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/805</dc:source>
 		<dc:source>https://archive.org/stream/thissideofparadi00fitzuoft</dc:source>
+		<dc:source>https://archive.org/details/thissideparadis01fitzgoog</dc:source>
 		<meta property="se:word-count">83589</meta>
 		<meta property="se:reading-ease.flesch">72.16</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/This_Side_of_Paradise</meta>
