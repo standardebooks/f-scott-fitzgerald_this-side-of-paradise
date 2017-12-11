@@ -1,7 +1,6 @@
-@charset "UTF-8";
+@charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-abbr.name,
 abbr.initialism{
 	white-space: nowrap;
 }
@@ -87,10 +86,6 @@ p[epub|type~="z3998:valediction"]{
 	font-style:italic;
 }
 
-[epub|type~="z3998:lyrics"] em{
-	font-style:normal;
-}
-
 [epub|type~="z3998:poem"] p.title{
 	font-style:italic;
 }
@@ -113,8 +108,7 @@ p[epub|type~="z3998:valediction"]{
 	display: none;
 }
 
-[epub|type~="z3998:poem"] p + p,
-[epub|type~="z3998:lyrics"] p + p{
+[epub|type~="z3998:poem"] p + p{
 	margin-top: 1em;
 }
 
