@@ -104,9 +104,9 @@
 <spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="halftitle.xhtml"/>
 		<itemref idref="epigraph.xhtml"/>
 		<itemref idref="dedication.xhtml"/>
-		<itemref idref="halftitle.xhtml"/>
 		<itemref idref="book-1.xhtml"/>
 		<itemref idref="chapter-1-1.xhtml"/>
 		<itemref idref="chapter-1-2.xhtml"/>
