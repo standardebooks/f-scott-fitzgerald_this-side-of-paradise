@@ -18,7 +18,7 @@ b{
 }
 
 [epub|type~="subchapter"] h3,
-[epub|type~="z3998:poem"] h3{
+[epub|type~="z3998:poem"] p.title{
 	margin: 2em 0 1em 0;
 }
 
