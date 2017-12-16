@@ -17,7 +17,7 @@ b{
 	font-variant: small-caps;
 }
 
-[epub|type~="subchapter"] h3{
+[epub|type~="subchapter"] header p{
 	margin: 2em 0 1em 0;
 }
 
@@ -46,14 +46,14 @@ td[epub|type~="z3998:persona"]{
 	white-space: nowrap;
 }
 
+thead td{
+	font-variant: small-caps;
+	text-align: center;
+}
+
 td{
 	vertical-align: top;
 	padding: .5em;
-}
-
-th{
-	font-variant: small-caps;
-	text-align: center;
 }
 
 span[epub|type~="subtitle"]{
