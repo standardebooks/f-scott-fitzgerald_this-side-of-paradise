@@ -109,6 +109,7 @@ header p{
 [epub|type~="z3998:poem"] p > span,
 [epub|type~="z3998:lyrics"] p > span{
 	display: block;
+	font-style: italic;
 	text-indent: -1em;
 	padding-left: 1em;
 }
