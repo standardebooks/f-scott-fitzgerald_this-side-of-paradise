@@ -37,7 +37,11 @@
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">A young man comes of age during America’s Jazz Age.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
-		<meta id="long-description" property="se:long-description" refines="#description">F. Scott Fitzgerald’s first novel is a semi-autobiographical story of a midwestern young man from a wealthy family. It follows him from preparatory school, through Princeton, and then an aborted attempt at a career as an advertising copywriter. It examines his relationships with his family, romantic partners, mentors, and peers and how he attempts to develop and define himself through these relationships and through his changing fortunes.</meta>
+		<meta id="long-description" property="se:long-description" refines="#description">
+			&lt;p&gt;&lt;i&gt;This Side of Paradise&lt;/i&gt; chronicles the coming of age of Amory Blaine, born to a wealthy midwestern family. It begins with Amory as a spoiled youth, doted on by his eccentric mother Beatrice. It follows him as he attends preparatory school and Princeton, and then briefly attempts but quickly abandons at a career in advertising. His service in World War I is mentioned but mostly glossed over. Covered in much more detail are his various romances: youthful dalliances, a correspondance-based relationship that ends as soon as the couple spends time together in person, a deep love with the debutant sister of one of his close friends, and an intense summer fling.&lt;/p&gt;
+			&lt;p&gt;The book shows Amory’s attempts to define himself as a person and find his place in a world rapidly changing through World War, the “Jazz Age,” and Prohibition. It provides the reader with a good picture of what life was like for a privileged young man of the era.&lt;/p&gt;
+			&lt;p&gt;F. Scott Fitzgerald’s first novel, &lt;i&gt;This Side of Paradise&lt;/i&gt; was published in 1920 when he was 23 years old and was widely praised by critics. The semi-autobiographical work launched his career as one of America’s most well-known writers. As a direct result of the publishing of the novel, Zelda Sayre (the inspiration for the character of the debutant Rosalind Connage) agreed to marry Fitzgerald. The couple became an icon of the excesses of the Jazz Age.&lt;/p&gt;
+		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/805</dc:source>
