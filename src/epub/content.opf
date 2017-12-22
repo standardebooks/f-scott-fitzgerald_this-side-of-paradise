@@ -3,8 +3,8 @@
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<meta content="cover.jpg" name="cover"/>
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/f-scott-fitzgerald/this-side-of-paradise</dc:identifier>
-		<dc:date>2017-06-25T21:58:29Z</dc:date>
-		<meta property="dcterms:modified">2017-06-25T21:58:29Z</meta>
+		<dc:date>2017-12-22T18:53:06Z</dc:date>
+		<meta property="dcterms:modified">2017-12-22T18:53:06Z</meta>
 		<meta property="se:revision-number">1</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
@@ -40,14 +40,14 @@
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;This Side of Paradise&lt;/i&gt; chronicles the coming of age of Amory Blaine, born to a wealthy midwestern family. It begins with Amory as a spoiled youth, doted on by his eccentric mother Beatrice. It follows him as he attends preparatory school and Princeton, and then briefly attempts but quickly abandons at a career in advertising. His service in World War I is mentioned but mostly glossed over. Covered in much more detail are his various romances: youthful dalliances, a correspondance-based relationship that ends as soon as the couple spends time together in person, a deep love with the debutant sister of one of his close friends, and an intense summer fling.&lt;/p&gt;
 			&lt;p&gt;The book shows Amory’s attempts to define himself as a person and find his place in a world rapidly changing through World War, the “Jazz Age,” and Prohibition. It provides the reader with a good picture of what life was like for a privileged young man of the era.&lt;/p&gt;
-			&lt;p&gt;F. Scott Fitzgerald’s first novel, &lt;i&gt;This Side of Paradise&lt;/i&gt; was published in 1920 when he was 23 years old and was widely praised by critics. The semi-autobiographical work launched his career as one of America’s most well-known writers. As a direct result of the publishing of the novel, Zelda Sayre (the inspiration for the character of the debutant Rosalind Connage) agreed to marry Fitzgerald. The couple became an icon of the excesses of the Jazz Age.&lt;/p&gt;
+			&lt;p&gt;F. Scott Fitzgerald’s first novel, &lt;i&gt;This Side of Paradise&lt;/i&gt; was published in 1920 when he was 23 years old, and was widely praised by critics. The semi-autobiographical work launched his career as one of America’s most well-known writers. As a direct result of the publishing of the novel, Zelda Sayre (the inspiration for the character of the debutant Rosalind Connage) agreed to marry Fitzgerald. The couple became an icon of the excesses of the Jazz Age.&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/805</dc:source>
 		<dc:source>https://archive.org/details/thissideofparadi00fitzuoft</dc:source>
 		<dc:source>https://archive.org/details/thissideparadis01fitzgoog</dc:source>
-		<meta property="se:word-count">83589</meta>
+		<meta property="se:word-count">83573</meta>
 		<meta property="se:reading-ease.flesch">72.16</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/This_Side_of_Paradise</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/f-scott-fitzgerald_this-side-of-paradise</meta>
