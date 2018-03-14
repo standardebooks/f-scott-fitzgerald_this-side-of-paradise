@@ -22,6 +22,11 @@ section[epub|type~="epigraph"] blockquote{
 	margin: 5em auto;
 }
 
+section[epub|type~="dedication"] p{
+	margin: 5em auto;
+	text-align: center;
+}
+
 [epub|type~="z3998:stage-direction"]{
 	font-style: italic;
 }
