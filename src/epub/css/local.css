@@ -9,6 +9,19 @@ b{
 	font-weight: normal;
 }
 
+section[epub|type~="epigraph"]{
+	text-align: center;
+}
+
+section[epub|type~="epigraph"] > div{ /* unfortunately without flexbox this wrapper div is required for centering */
+	display: inline-block;
+	text-align: left;
+}
+
+section[epub|type~="epigraph"] blockquote{
+	margin: 5em auto;
+}
+
 [epub|type~="z3998:stage-direction"]{
 	font-style: italic;
 }
