@@ -67,6 +67,7 @@ td[epub|type~="z3998:persona"]{
 thead td{
 	font-variant: small-caps;
 	text-align: center;
+	white-space: nowrap;
 }
 
 td{
