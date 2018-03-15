@@ -101,6 +101,10 @@ p[epub|type~="z3998:valediction"]{
 	text-align: center;
 }
 
+p[epub|type~="z3998:valediction"] + .signature{
+	margin-top: 1em;
+}
+
 p[epub|type~="z3998:salutation"] + p,
 p[epub|type~="z3998:valediction"] + p{
 	text-indent: 0;
