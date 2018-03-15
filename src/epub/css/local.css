@@ -93,8 +93,13 @@ p[epub|type~="z3998:salutation"]{
 	font-variant: small-caps;
 }
 
+p[epub|type~="preamble"] + p{
+	margin-top: 1em;
+}
+
 p[epub|type~="z3998:salutation"]{
 	text-align: left;
+	text-indent: 0;
 }
 
 p[epub|type~="z3998:valediction"]{
