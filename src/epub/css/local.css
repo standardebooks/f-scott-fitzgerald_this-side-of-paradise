@@ -159,6 +159,10 @@ header p{
 	text-indent: 0;
 }
 
+.prose-poem{
+	font-style: italic;
+}
+
 p span.i1{
 	text-indent: -1em;
 	padding-left: 2em;
