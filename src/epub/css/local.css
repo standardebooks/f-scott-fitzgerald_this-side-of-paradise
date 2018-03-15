@@ -114,6 +114,10 @@ p[epub|type~="z3998:valediction"] + p{
 	font-style: italic;
 }
 
+[epub|type~="z3998:poem"] header{
+	font-style: normal;
+}
+
 header p{
 	margin: 2em 0 1em 0;
 }
