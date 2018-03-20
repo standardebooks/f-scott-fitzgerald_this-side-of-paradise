@@ -1,12 +1,17 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+abbr.name{
+	white-space: nowrap;
+}
+
 abbr.initialism{
 	white-space: nowrap;
 }
 
 b{
 	font-weight: normal;
+	font-variant: small-caps;
 }
 
 section[epub|type~="epigraph"]{
@@ -43,6 +48,50 @@ section > p[epub|type~="z3998:stage-direction"]{
 	text-align: center;
 }
 
+[epub|type~="z3998:drama"]{
+	border-collapse: collapse;
+}
+
+[epub|type~="z3998:drama"] tr:first-child td{
+	padding-top: 0;
+}
+
+[epub|type~="z3998:drama"] tr:last-child td{
+	padding-bottom: 0;
+}
+
+[epub|type~="z3998:drama"] td{
+	vertical-align: top;
+	padding: .5em;
+}
+
+[epub|type~="z3998:drama"] td:last-child{
+	padding-right: 0;
+}
+
+[epub|type~="z3998:drama"] td:first-child{
+	padding-left: 0;
+}
+
+[epub|type~="z3998:drama"] td[epub|type~="z3998:persona"]{
+	hyphens: none;
+	text-align: right;
+	width: 20%;
+}
+
+[epub|type~="z3998:drama"] td p{
+	text-indent: 0;
+}
+
+[epub|type~="z3998:drama"] table{
+	margin: 1em auto;
+	width: 100%;
+}
+
+[epub|type~="z3998:stage-direction"]{
+	font-style: italic;
+}
+
 [epub|type~="z3998:stage-direction"]::before{
 	content: "(";
 	font-style: normal;
@@ -53,29 +102,14 @@ section > p[epub|type~="z3998:stage-direction"]{
 	font-style: normal;
 }
 
-p[epub|type~="z3998:stage-direction"]{
-	text-align: center;
-}
-
 [epub|type~="z3998:persona"]{
-	font-variant: small-caps;
-	text-transform: lowercase;
-}
-
-td[epub|type~="z3998:persona"]{
-	text-align: right;
-	white-space: nowrap;
+	font-variant: all-small-caps;
 }
 
 thead td{
 	font-variant: small-caps;
 	text-align: center;
 	white-space: nowrap;
-}
-
-td{
-	vertical-align: top;
-	padding: .5em;
 }
 
 span[epub|type~="subtitle"]{
