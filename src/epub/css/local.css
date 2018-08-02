@@ -1,31 +1,52 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-abbr.name{
-	white-space: nowrap;
+/* All epigraphs */
+[epub|type~="epigraph"]{
+	font-style: italic;
+	hyphens: none;
 }
 
-abbr.initialism{
-	white-space: nowrap;
-}
-
-b{
-	font-weight: normal;
+[epub|type~="epigraph"] cite{
+	margin-top: 1em;
+	font-style: normal;
 	font-variant: small-caps;
 }
+/* End all epigraphs */
 
+/* Full-page epigraphs */
 section[epub|type~="epigraph"]{
 	text-align: center;
 }
 
-section[epub|type~="epigraph"] > div{ /* unfortunately without flexbox this wrapper div is required for centering */
+section[epub|type~="epigraph"] > *{
 	display: inline-block;
+	margin: auto;
+	margin-top: 3em;
+	max-width: 80%;
 	text-align: left;
 }
 
-section[epub|type~="epigraph"] blockquote{
-	margin: 5em auto;
+@supports(display: flex){
+	section[epub|type~="epigraph"]{
+		align-items: center;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		min-height: calc(98vh - 3em);
+		padding-top: 3em;
+	}
+
+	section[epub|type~="epigraph"] > *{
+		margin: 0;
+	}
+
+	section[epub|type~="epigraph"] > * + *{
+		margin-top: 3em;
+	}
 }
+/* End full-page epigraphs */
 
 section[epub|type~="dedication"] p{
 	margin: 5em auto;
@@ -40,12 +61,26 @@ section > p[epub|type~="z3998:stage-direction"]{
 	text-align: left;
 }
 
-[epub|type~="subchapter"] header p{
+[epub|type~="subchapter"] header{
 	font-variant: small-caps;
 	hyphens: none;
 	-epub-hyphens: none;
 	page-break-after: avoid;
+	margin-top: 3em;
+}
+
+[epub|type~="subchapter"] header + *{
+	margin-top: 1em;
+}
+
+[epub|type~="z3998:poem"] header p{
+	margin-bottom: 1em;
+	margin-top: 3em;
 	text-align: center;
+}
+
+table{
+	margin: 1em;
 }
 
 [epub|type~="z3998:drama"]{
@@ -163,20 +198,17 @@ p[epub|type~="z3998:valediction"] + p{
 [epub|type~="z3998:poem"] header p{
 	font-style: normal;
 	font-variant: small-caps;
-	text-align: center;
-}
-
-header p{
-	margin: 2em 0 1em 0;
 }
 
 [epub|type~="z3998:poem"] p,
+[epub|type~="z3998:verse"] p,
 [epub|type~="z3998:lyrics"] p{
 	text-align: left;
 	text-indent: 0;
 }
 
 [epub|type~="z3998:poem"] p > span,
+[epub|type~="z3998:verse"] p > span,
 [epub|type~="z3998:lyrics"] p > span{
 	display: block;
 	font-style: italic;
@@ -185,6 +217,7 @@ header p{
 }
 
 [epub|type~="z3998:poem"] p > span + br,
+[epub|type~="z3998:verse"] p > span + br,
 [epub|type~="z3998:lyrics"] p > span + br{
 	display: none;
 }
