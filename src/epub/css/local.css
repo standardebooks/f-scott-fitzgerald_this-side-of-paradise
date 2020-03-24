@@ -58,10 +58,6 @@ section[epub|type~="dedication"] p{
 	text-align: center;
 }
 
-[epub|type~="z3998:stage-direction"]{
-	font-style: italic;
-}
-
 section > p[epub|type~="z3998:stage-direction"]{
 	text-align: left;
 }
@@ -79,6 +75,8 @@ section > p[epub|type~="z3998:stage-direction"]{
 }
 
 [epub|type~="z3998:poem"] header p{
+	font-style: normal;
+	font-variant: small-caps;
 	margin-bottom: 1em;
 	margin-top: 3em;
 	text-align: center;
@@ -198,11 +196,6 @@ p[epub|type~="z3998:valediction"] + p{
 
 [epub|type~="z3998:lyrics"] p{
 	font-style: italic;
-}
-
-[epub|type~="z3998:poem"] header p{
-	font-style: normal;
-	font-variant: small-caps;
 }
 
 [epub|type~="z3998:poem"] p,
