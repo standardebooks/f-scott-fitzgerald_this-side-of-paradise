@@ -6,4 +6,10 @@
 			<reason>The exclamation point is part of the book title.</reason>
 		</ignore>
 	</file>
+	<file path="interlude.xhtml">
+		<ignore>
+			<code>t-017</code>
+			<reason>The exclamation point is part an interjection which is a complete clause.</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
