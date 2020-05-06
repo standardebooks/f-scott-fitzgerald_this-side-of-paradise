@@ -194,20 +194,20 @@ p[epub|type~="z3998:valediction"] + p{
 	text-align: right;
 }
 
-[epub|type~="z3998:lyrics"] p{
+[epub|type~="z3998:song"] p{
 	font-style: italic;
 }
 
 [epub|type~="z3998:poem"] p,
 [epub|type~="z3998:verse"] p,
-[epub|type~="z3998:lyrics"] p{
+[epub|type~="z3998:song"] p{
 	text-align: left;
 	text-indent: 0;
 }
 
 [epub|type~="z3998:poem"] p > span,
 [epub|type~="z3998:verse"] p > span,
-[epub|type~="z3998:lyrics"] p > span{
+[epub|type~="z3998:song"] p > span{
 	display: block;
 	font-style: italic;
 	text-indent: -1em;
@@ -216,7 +216,7 @@ p[epub|type~="z3998:valediction"] + p{
 
 [epub|type~="z3998:poem"] p > span + br,
 [epub|type~="z3998:verse"] p > span + br,
-[epub|type~="z3998:lyrics"] p > span + br{
+[epub|type~="z3998:song"] p > span + br{
 	display: none;
 }
 
@@ -225,7 +225,7 @@ p[epub|type~="z3998:valediction"] + p{
 }
 
 [epub|type~="z3998:poem"] + p,
-[epub|type~="z3998:lyrics"] + p{
+[epub|type~="z3998:song"] + p{
 	text-indent: 0;
 }
 
