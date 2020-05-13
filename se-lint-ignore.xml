@@ -6,6 +6,12 @@
 			<reason>The exclamation point is part of the book title.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-2-2.xhtml">
+		<ignore>
+			<code>t-003</code>
+			<reason>Matched text is part of longer dialog.</reason>
+		</ignore>
+	</file>
 	<file path="interlude.xhtml">
 		<ignore>
 			<code>t-017</code>
