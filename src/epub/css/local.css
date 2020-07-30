@@ -10,6 +10,7 @@ blockquote[xml|lang]{
 [epub|type~="epigraph"]{
 	font-style: italic;
 	hyphens: none;
+	-epub-hyphens: none;
 }
 
 [epub|type~="epigraph"] cite{
@@ -64,9 +65,6 @@ section > p[epub|type~="z3998:stage-direction"]{
 
 [epub|type~="subchapter"] header{
 	font-variant: small-caps;
-	hyphens: none;
-	-epub-hyphens: none;
-	page-break-after: avoid;
 	margin-top: 3em;
 }
 
@@ -113,6 +111,7 @@ table{
 
 [epub|type~="z3998:drama"] td[epub|type~="z3998:persona"]{
 	hyphens: none;
+	-epub-hyphens: none;
 	text-align: right;
 	width: 20%;
 }
