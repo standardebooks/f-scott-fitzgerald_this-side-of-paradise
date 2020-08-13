@@ -129,6 +129,10 @@ table{
 	font-style: italic;
 }
 
+[epub|type~="z3998:stage-direction"] i{
+	font-style: normal;
+}
+
 [epub|type~="z3998:stage-direction"]::before{
 	content: "(";
 	font-style: normal;
