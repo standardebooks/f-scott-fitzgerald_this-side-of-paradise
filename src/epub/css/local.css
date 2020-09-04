@@ -149,11 +149,6 @@ thead td{
 	white-space: nowrap;
 }
 
-span[epub|type~="subtitle"]{
-	display: block;
-	font-weight: normal;
-}
-
 blockquote[epub|type~="z3998:letter"]{
 	font-style: italic;
 }
