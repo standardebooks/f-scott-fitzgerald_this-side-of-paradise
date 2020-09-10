@@ -157,7 +157,7 @@ blockquote[epub|type~="z3998:letter"] em{
 	font-style: normal;
 }
 
-[epub|type~="z3998:letter"] footer p.signature,
+[epub|type~="z3998:letter"] footer p[epub:type~="z3998:signature"],
 p[epub|type~="z3998:salutation"]{
 	font-variant: small-caps;
 }
@@ -175,7 +175,7 @@ p[epub|type~="z3998:valediction"]{
 	text-align: center;
 }
 
-p[epub|type~="z3998:valediction"] + .signature{
+p[epub|type~="z3998:valediction"] + [epub:type~="z3998:signature"]{
 	margin-top: 1em;
 }
 
@@ -184,7 +184,7 @@ p[epub|type~="z3998:valediction"] + p{
 	text-indent: 0;
 }
 
-[epub|type~="z3998:letter"] footer p.signature{
+[epub|type~="z3998:letter"] footer p[epub:type~="z3998:signature"]{
 	text-align: right;
 }
 
