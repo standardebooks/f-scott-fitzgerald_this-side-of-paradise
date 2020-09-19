@@ -218,11 +218,6 @@ p[epub|type~="z3998:valediction"] + p{
 	margin-top: 1em;
 }
 
-[epub|type~="z3998:poem"] + p,
-[epub|type~="z3998:song"] + p{
-	text-indent: 0;
-}
-
 .prose-poem{
 	font-style: italic;
 }
