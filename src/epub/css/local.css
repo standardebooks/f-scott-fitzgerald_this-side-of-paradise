@@ -30,7 +30,7 @@ section[epub|type~="epigraph"] > *{
 	margin: auto;
 	margin-top: 3em;
 	max-width: 80%;
-	text-align: left;
+	text-align: initial;
 }
 
 @supports(display: flex){
@@ -60,7 +60,7 @@ section[epub|type~="dedication"] p{
 }
 
 section > p[epub|type~="z3998:stage-direction"]{
-	text-align: left;
+	text-align: initial;
 }
 
 [epub|type~="subchapter"] header{
@@ -177,7 +177,7 @@ footer{
 }
 
 [epub|type~="z3998:postscript"]{
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
 
@@ -188,7 +188,7 @@ footer{
 [epub|type~="z3998:poem"] p,
 [epub|type~="z3998:verse"] p,
 [epub|type~="z3998:song"] p{
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
 
