@@ -149,14 +149,6 @@ thead td{
 	white-space: nowrap;
 }
 
-blockquote[epub|type~="z3998:letter"]{
-	font-style: italic;
-}
-
-blockquote[epub|type~="z3998:letter"] em{
-	font-style: normal;
-}
-
 [epub|type~="z3998:letter"] footer p[epub|type~="z3998:signature"],
 p[epub|type~="z3998:salutation"]{
 	font-variant: small-caps;
@@ -182,10 +174,6 @@ footer{
 	text-indent: 0;
 }
 
-[epub|type~="z3998:song"] p{
-	font-style: italic;
-}
-
 [epub|type~="z3998:poem"] p,
 [epub|type~="z3998:verse"] p,
 [epub|type~="z3998:song"] p{
@@ -197,7 +185,6 @@ footer{
 [epub|type~="z3998:verse"] p > span,
 [epub|type~="z3998:song"] p > span{
 	display: block;
-	font-style: italic;
 	text-indent: -1em;
 	padding-left: 1em;
 }
@@ -212,8 +199,11 @@ footer{
 	margin-top: 1em;
 }
 
-.prose-poem{
+#chapter-1-4-5 blockquote,
+#chapter-2-2-7 blockquote{
 	font-style: italic;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 p span.i1{
