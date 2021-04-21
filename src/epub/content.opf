@@ -83,6 +83,7 @@
 		<meta property="file-as" refines="#transcriber-2">Reeder, Ken</meta>
 		<dc:contributor id="transcriber-3">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Widger, David</meta>
+		<meta property="se:url.authority.nacoaf" refines="#transcriber-3">http://id.loc.gov/authorities/names/no2011017869</meta>
 		<dc:contributor id="producer-1">Steve Nicholson</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Nicholson, Steve</meta>
 		<meta property="se:url.homepage" refines="#producer-1">http://ssteve.com</meta>
