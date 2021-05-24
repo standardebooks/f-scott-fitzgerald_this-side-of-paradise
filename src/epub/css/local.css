@@ -63,12 +63,12 @@ section > p[epub|type~="z3998:stage-direction"]{
 	text-align: initial;
 }
 
-[epub|type~="subchapter"] header{
+[epub|type~="z3998:subchapter"] header{
 	font-variant: small-caps;
 	margin-top: 3em;
 }
 
-[epub|type~="subchapter"] header + *{
+[epub|type~="z3998:subchapter"] header + *{
 	margin-top: 1em;
 }
 
