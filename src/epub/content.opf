@@ -61,7 +61,7 @@
 		<dc:source>https://archive.org/details/thissideofparadi00fitzuoft</dc:source>
 		<dc:source>https://archive.org/details/thissideparadis01fitzgoog</dc:source>
 		<meta property="se:word-count">83591</meta>
-		<meta property="se:reading-ease.flesch">72.16</meta>
+		<meta property="se:reading-ease.flesch">72.26</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/This_Side_of_Paradise</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/f-scott-fitzgerald_this-side-of-paradise</meta>
 		<dc:creator id="author">F. Scott Fitzgerald</dc:creator>
