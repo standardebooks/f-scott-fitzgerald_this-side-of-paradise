@@ -2,21 +2,28 @@
 <se-lint-ignore>
 	<file path="chapter-1-1.xhtml">
 		<ignore code="y-003">
+			<line>56</line>
 			<reason>Matched text is not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-1-2.xhtml">
 		<ignore code="t-017">
+			<line>267</line>
+			<line>278</line>
+			<line>279</line>
+			<line>280</line>
 			<reason>The exclamation point is part of the book title.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-2-2.xhtml">
 		<ignore code="t-003">
+			<line>60</line>
 			<reason>Matched text is part of longer dialog.</reason>
 		</ignore>
 	</file>
 	<file path="interlude.xhtml">
 		<ignore code="t-017">
+			<line>17</line>
 			<reason>The exclamation point is part an interjection which is a complete clause.</reason>
 		</ignore>
 	</file>
