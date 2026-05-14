@@ -145,8 +145,9 @@ i [epub|type~="z3998:persona"]{
 	font-variant: all-small-caps;
 }
 
-thead td{
+thead th{
 	font-variant: small-caps;
+	font-weight: normal;
 	text-align: center;
 	white-space: nowrap;
 }
