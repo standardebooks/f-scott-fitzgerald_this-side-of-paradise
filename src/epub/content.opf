@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/f-scott-fitzgerald/this-side-of-paradise</dc:identifier>
 		<dc:date>2017-12-22T18:53:06Z</dc:date>
 		<meta property="dcterms:modified">2017-12-22T18:53:06Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -50,7 +51,7 @@
 		<meta property="term" refines="#subject-6">sh2008100489</meta>
 		<meta property="authority" refines="#subject-7">LCSH</meta>
 		<meta property="term" refines="#subject-7">sh2008113481</meta>
-		<meta property="se:subject">Fiction</meta>
+		<meta property="schema:genre">Fiction</meta>
 		<dc:description id="description">A young man comes of age during America’s Jazz Age.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;This Side of Paradise&lt;/i&gt; chronicles the coming of age of Amory Blaine, born to a wealthy midwestern family. It begins with Amory as a spoiled youth, doted on by his eccentric mother Beatrice. It follows him as he attends preparatory school and Princeton, and then briefly attempts but quickly abandons at a career in advertising. His service in World War I is mentioned but mostly glossed over. Covered in much more detail are his various romances: youthful dalliances, a correspondence-based relationship that ends as soon as the couple spends time together in person, a deep love with the debutante sister of one of his close friends, and an intense summer fling.&lt;/p&gt;
@@ -61,21 +62,23 @@
 		<dc:source>https://www.gutenberg.org/ebooks/805</dc:source>
 		<dc:source>https://archive.org/details/thissideofparadi00fitzuoft</dc:source>
 		<dc:source>https://archive.org/details/thissideparadis01fitzgoog</dc:source>
-		<meta property="se:word-count">81388</meta>
-		<meta property="se:reading-ease.flesch">72.26</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/This_Side_of_Paradise</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/f-scott-fitzgerald_this-side-of-paradise</meta>
+		<meta property="schema:wordCount">81388</meta>
+		<meta property="schema:educationalLevel">72.26</meta>
+		<link href="https://en.wikipedia.org/wiki/This_Side_of_Paradise" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/f-scott-fitzgerald_this-side-of-paradise" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">F. Scott Fitzgerald</dc:creator>
 		<meta property="file-as" refines="#author">Fitzgerald, F. Scott</meta>
-		<meta property="se:name.person.full-name" refines="#author">Francis Scott Key Fitzgerald</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/F._Scott_Fitzgerald</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79006871</meta>
+		<meta property="schema:alternateName" refines="#author">Francis Scott Key Fitzgerald</meta>
+		<link href="https://en.wikipedia.org/wiki/F._Scott_Fitzgerald" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79006871.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
 		<dc:contributor id="artist">Robert Henri</dc:contributor>
 		<meta property="file-as" refines="#artist">Henri, Robert</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Robert_Henri</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n50037311</meta>
+		<link href="https://en.wikipedia.org/wiki/Robert_Henri" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50037311.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">David Reed</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Reed, David</meta>
@@ -83,10 +86,10 @@
 		<meta property="file-as" refines="#transcriber-2">Reeder, Ken</meta>
 		<dc:contributor id="transcriber-3">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Widger, David</meta>
-		<meta property="se:url.authority.nacoaf" refines="#transcriber-3">http://id.loc.gov/authorities/names/no2011017869</meta>
+		<link href="https://id.loc.gov/authorities/names/no2011017869.html" refines="#transcriber-3" rel="schema:sameAs"/>
 		<dc:contributor id="producer-1">Steve Nicholson</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Nicholson, Steve</meta>
-		<meta property="se:url.homepage" refines="#producer-1">http://ssteve.com/</meta>
+		<link href="http://ssteve.com/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
