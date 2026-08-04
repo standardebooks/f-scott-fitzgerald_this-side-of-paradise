@@ -52,7 +52,7 @@
 		<meta property="authority" refines="#subject-7">LCSH</meta>
 		<meta property="term" refines="#subject-7">sh2008113481</meta>
 		<meta property="schema:genre">Fiction</meta>
-		<dc:abstract>A young man comes of age during America’s Jazz Age.</dc:abstract>
+		<meta property="schema:abstract">A young man comes of age during America’s Jazz Age.</meta>
 		<dc:description>
 			&lt;p&gt;&lt;i&gt;This Side of Paradise&lt;/i&gt; chronicles the coming of age of Amory Blaine, born to a wealthy midwestern family. It begins with Amory as a spoiled youth, doted on by his eccentric mother Beatrice. It follows him as he attends preparatory school and Princeton, and then briefly attempts but quickly abandons at a career in advertising. His service in World War I is mentioned but mostly glossed over. Covered in much more detail are his various romances: youthful dalliances, a correspondence-based relationship that ends as soon as the couple spends time together in person, a deep love with the debutante sister of one of his close friends, and an intense summer fling.&lt;/p&gt;
 			&lt;p&gt;The book shows Amory’s attempts to define himself as a person and find his place in a world rapidly changing through World War, the “Jazz Age,” and Prohibition. It provides the reader with a good picture of what life was like for a privileged young man of the era.&lt;/p&gt;
