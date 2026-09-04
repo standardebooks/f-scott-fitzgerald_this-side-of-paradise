@@ -32,11 +32,11 @@
 		<meta property="file-as" refines="#title">This Side of Paradise</meta>
 		<dc:subject id="subject-1">Love Stories</dc:subject>
 		<dc:subject id="subject-2">Bildungsromans</dc:subject>
-		<dc:subject id="subject-3">Young men -- Fiction</dc:subject>
-		<dc:subject id="subject-4">Children of the rich -- Fiction</dc:subject>
-		<dc:subject id="subject-5">Advertising -- Fiction</dc:subject>
-		<dc:subject id="subject-6">College students -- Fiction</dc:subject>
-		<dc:subject id="subject-7">World War, 1914-1918 -- Veterans -- Fiction</dc:subject>
+		<dc:subject id="subject-3">Young men--Fiction</dc:subject>
+		<dc:subject id="subject-4">Children of the rich--Fiction</dc:subject>
+		<dc:subject id="subject-5">Advertising--Fiction</dc:subject>
+		<dc:subject id="subject-6">College students--Fiction</dc:subject>
+		<dc:subject id="subject-7">World War, 1914-1918--Veterans--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">Unknown</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
