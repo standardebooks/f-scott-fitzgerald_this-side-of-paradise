@@ -82,11 +82,14 @@
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">David Reed</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Reed, David</meta>
+		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">Ken Reeder</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Reeder, Ken</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Widger, David</meta>
 		<link href="https://id.loc.gov/authorities/names/no2011017869.html" refines="#transcriber-3" rel="schema:sameAs"/>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Steve Nicholson</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Nicholson, Steve</meta>
 		<link href="http://ssteve.com/" refines="#producer-1" rel="schema:url"/>
